@@ -12,8 +12,13 @@ import com.evo.base.BaseClass;
 import com.evo.pageobjects.LoginPage;
 
 /**
- * @author zaid.nezam_infobeans
- *
+ * This LoginPageTest class contains
+ * testcases of login page
+ * Testcases are independent of each other
+ * 
+ * @author Zaid Nezam
+ * @version 1.0
+ *  
  */
 
 public class LoginPageTest extends BaseClass{

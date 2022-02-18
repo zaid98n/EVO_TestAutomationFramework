@@ -13,8 +13,8 @@
           <include name="teardown"/>
           <include name="loadconfig"/>
           <include name="reporting"/>
-          <include name="verifyARpage"/>
           <include name="launchBrowser"/>
+          <include name="verifyFRpage"/>
         </methods>
       </class> <!-- com.evo.testcases.LoginPageTest -->
     </classes>

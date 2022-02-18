@@ -8,8 +8,12 @@ import com.evo.actiondriver.Action;
 import com.evo.base.BaseClass;
 
 /**
+ * This LoginPage class contains locators
+ * and methods for test case implementation
+ * 
  * @author Zaid Nezam
- *
+ * @version 1.0
+ *  
  */
 
 public class LoginPage extends BaseClass{

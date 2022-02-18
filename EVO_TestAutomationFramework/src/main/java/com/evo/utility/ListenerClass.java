@@ -13,11 +13,19 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.evo.actiondriver.Action;
 import com.evo.base.BaseClass;
 
+/**
+ * This ListenerClass class contains methods for
+ * Implementation for extent report logs
+ * 
+ * @author Zaid Nezam
+ * @version 1.0
+ *  
+ */
 
 @SuppressWarnings("unused")
 public class ListenerClass extends ExtentManager implements ITestListener {
 
-	Action action= new Action();
+	//Action action= new Action();
 	
 	public void onTestStart(ITestResult result) {
 		test = extent.createTest(result.getName());
@@ -36,7 +44,7 @@ public class ListenerClass extends ExtentManager implements ITestListener {
 						MarkupHelper.createLabel("Test Case " + result.getName() + " has Failed", ExtentColor.RED));
 				test.log(Status.FAIL,
 						MarkupHelper.createLabel("Test Case " + result.getThrowable() + " has Failed", ExtentColor.RED));
-				String imgPath = action.screenShot(BaseClass.driver, result.getName());
+				String imgPath = Action.screenShot(BaseClass.driver, result.getName());
 			
 				test.fail("ScreenShot is Attached", MediaEntityBuilder.createScreenCaptureFromPath(imgPath).build());
 				

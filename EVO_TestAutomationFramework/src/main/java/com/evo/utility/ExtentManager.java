@@ -1,9 +1,21 @@
 package com.evo.utility;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.evo.base.BaseClass;
+
+/**
+ * This ExtentManager class contains
+ * implematation of extent report
+ * 
+ * @author Zaid Nezam
+ * @version 1.0
+ *  
+ */
 
 public class ExtentManager extends BaseClass{
 	
@@ -13,10 +25,11 @@ public class ExtentManager extends BaseClass{
 	
 	public static void setExtent() {
 		//htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport_"+BaseClass.getCurrentTime()+".html");
-		htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport.html");
+		String dateName = new SimpleDateFormat("dd_MM_yyyy_HH_mm_ss").format(new Date());
+		htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport_"+dateName+".html");
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+"/extent-config.xml");
 		//htmlReporter.config().setDocumentTitle("Automation Test Report");
-		//htmlReporter.config().setReportName("OrangeHRM Test Automation Report");
+		//htmlReporter.config().setReportName("Test Automation Report"); 
 		//htmlReporter.config().setTheme(Theme.DARK);
 		
 		extent = new ExtentReports();

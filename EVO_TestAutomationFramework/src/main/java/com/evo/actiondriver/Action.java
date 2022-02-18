@@ -27,9 +27,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.evo.base.BaseClass;
 
 /**
+ * This Action class contains methods for
+ * the actions which is provided in selenium
+ * 
  * @author Zaid Nezam
- *
+ * @version 1.0
+ *  
  */
+
 public class Action extends BaseClass {
 
 	public static void scrollByVisibilityOfElement(WebDriver driver, WebElement ele) {
