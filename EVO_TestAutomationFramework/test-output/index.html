@@ -102,11 +102,6 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.evo.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginCheck">loginCheck</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.evo.testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyARpage">verifyARpage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -118,6 +113,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.evo.testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyFRpage">verifyFRpage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.evo.testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLogin">verifyLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -140,13 +140,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginCheck">
-                  </a> <!-- loginCheck -->
-                  <span class="method-name">loginCheck</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyARpage">
                   </a> <!-- verifyARpage -->
                   <span class="method-name">verifyARpage</span>
@@ -164,6 +157,13 @@
                   <a name="verifyFRpage">
                   </a> <!-- verifyFRpage -->
                   <span class="method-name">verifyFRpage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin">
+                  </a> <!-- verifyLogin -->
+                  <span class="method-name">verifyLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,26 +226,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginCheck')
+data.setCell(0, 1, 'verifyLogin')
 data.setCell(0, 2, 'com.evo.testcases.LoginPageTest')
-data.setCell(0, 3, 6421);
+data.setCell(0, 3, 8524);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyFRpage')
+data.setCell(1, 1, 'verifyARpage')
 data.setCell(1, 2, 'com.evo.testcases.LoginPageTest')
-data.setCell(1, 3, 5644);
+data.setCell(1, 3, 6023);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyARpage')
+data.setCell(2, 1, 'verifyFRpage')
 data.setCell(2, 2, 'com.evo.testcases.LoginPageTest')
-data.setCell(2, 3, 2288);
+data.setCell(2, 3, 5851);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyENpage')
 data.setCell(3, 2, 'com.evo.testcases.LoginPageTest')
-data.setCell(3, 3, 912);
+data.setCell(3, 3, 1145);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -277,60 +277,64 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-suite before">
+                <span class="method-name">logs</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
                 <span class="method-name">reporting</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">172 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">302 ms</span>
+                <span class="method-start">362 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyENpage</span>
-                <span class="method-start">4471 ms</span>
+                <span class="method-start">9360 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">5399 ms</span>
+                <span class="method-start">10521 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">5584 ms</span>
+                <span class="method-start">10786 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyARpage</span>
-                <span class="method-start">8937 ms</span>
+                <span class="method-start">18823 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">11227 ms</span>
+                <span class="method-start">24849 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">11427 ms</span>
+                <span class="method-start">25033 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyFRpage</span>
-                <span class="method-start">14808 ms</span>
+                <span class="method-start">29310 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">20455 ms</span>
+                <span class="method-start">35164 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">20633 ms</span>
+                <span class="method-start">35364 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginCheck</span>
-                <span class="method-start">23823 ms</span>
+                <span class="method-name">verifyLogin</span>
+                <span class="method-start">39151 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">30245 ms</span>
+                <span class="method-start">47677 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">reportingend</span>
-                <span class="method-start">30425 ms</span>
+                <span class="method-start">47924 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

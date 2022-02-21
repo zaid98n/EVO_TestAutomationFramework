@@ -41,39 +41,40 @@ public class LoginPage extends BaseClass{
 	WebElement alreadyloginpopup;
 	
 	public LoginPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(getDriver(), this);
 	}
 	
 	public void checkEN() throws Exception {
-		Action.fluentWait(driver, engbtn, 10);
-		Action.click(driver, engbtn);
+		Action.fluentWait(getDriver(), engbtn, 10);
+		Action.click(getDriver(), engbtn);
 	}
 	
 	public void checkAR() throws Exception {
-		Action.fluentWait(driver, arbtn, 10);
-		Action.click(driver, arbtn);
+		Action.fluentWait(getDriver(), arbtn, 10);
+		Action.click(getDriver(), arbtn);
 	}
 	
 	public void checkFR() throws Exception {
-		Action.fluentWait(driver, frbtn, 10);
-		Action.click(driver, frbtn);
+		Action.fluentWait(getDriver(), frbtn, 10);
+		Action.click(getDriver(), frbtn);
 	}
 	
 	public String getURL() {
-		String currenturl = driver.getCurrentUrl();
+		String currenturl = getDriver().getCurrentUrl();
 		return currenturl;
 	}
 	
 	public DashboardPage login(String uname, String Pwd) throws InterruptedException {
-		Action.fluentWait(driver, engbtn, 10);
-		Action.click(driver, engbtn);
+		Action.fluentWait(getDriver(), engbtn, 10);
+		Action.click(getDriver(), engbtn);
 		Action.type(username, uname);
 		Action.type(password, Pwd);
-		Action.click(driver, loginbtn);
+		Action.fluentWait(getDriver(), loginbtn, 10);
+		Action.click(getDriver(), loginbtn);
 		Thread.sleep(2000);
 		try{
-			Action.isDisplayed(driver, alreadyloginpopup);
-			Action.click(driver, alreadyloginpopup);
+			Action.isDisplayed(getDriver(), alreadyloginpopup);
+			Action.click(getDriver(), alreadyloginpopup);
 		}
 		catch (Exception e) {
 			// TODO: handle exception

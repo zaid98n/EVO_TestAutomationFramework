@@ -319,7 +319,6 @@ public class Action extends BaseClass {
 	}
 
 	
-	@SuppressWarnings("deprecation")
 	public static boolean switchToFrameByIndex(WebDriver driver,int index) {
 		boolean flag = false;
 		try {

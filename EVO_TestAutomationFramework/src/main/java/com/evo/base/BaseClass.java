@@ -2,15 +2,15 @@ package com.evo.base;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import com.evo.utility.ExtentManager;
@@ -29,7 +29,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 	
 	public static Properties prop;
-	public static WebDriver driver;
+	//public static WebDriver driver;
 	
 	@BeforeSuite
 	public void reporting() {
@@ -45,9 +45,20 @@ public class BaseClass {
 		 prop.load(fis);
 	}
 	
+	@BeforeSuite
+	public void logs() {
+		DOMConfigurator.configure("log4j.xml");
+	}
+	
 	@AfterSuite
 	public void reportingend() {
 		ExtentManager.endReport();
+	}
+	
+	public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
+	
+	public static WebDriver getDriver() {
+		return driver.get();
 	}
 	
 	public static void launchApp(String browser) {
@@ -55,31 +66,27 @@ public class BaseClass {
 		
 		if(browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			//driver = new ChromeDriver();
+			driver.set(new ChromeDriver());
 		}
 		
 		if(browser.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			//driver = new FirefoxDriver();
+			driver.set(new FirefoxDriver());
 		}
 		
 		if(browser.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
+			//driver = new EdgeDriver();
+			driver.set(new EdgeDriver());
 		}
 		
-		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
-		driver.get(prop.getProperty("ENurl"));
-		driver.manage().timeouts().implicitlyWait(Integer.parseInt(prop.getProperty("implicitwait")), TimeUnit.SECONDS);
+		getDriver().manage().window().maximize();
+		getDriver().manage().deleteAllCookies();
+		getDriver().get(prop.getProperty("ENurl"));
+		getDriver().manage().timeouts().implicitlyWait(Integer.parseInt(prop.getProperty("implicitwait")), TimeUnit.SECONDS);
 	}
-	
-	public static void currentTime() {
-		SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");  
-	    Date date = new Date();
-	    formatter.format(date);
-	}
-	
 	
 	
 }

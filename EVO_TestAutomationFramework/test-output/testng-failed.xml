@@ -13,8 +13,9 @@
           <include name="teardown"/>
           <include name="loadconfig"/>
           <include name="reporting"/>
+          <include name="logs"/>
           <include name="launchBrowser"/>
-          <include name="verifyFRpage"/>
+          <include name="verifyLogin"/>
         </methods>
       </class> <!-- com.evo.testcases.LoginPageTest -->
     </classes>
