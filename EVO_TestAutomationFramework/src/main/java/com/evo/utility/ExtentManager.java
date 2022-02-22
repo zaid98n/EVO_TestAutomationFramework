@@ -26,7 +26,7 @@ public class ExtentManager extends BaseClass{
 	public static void setExtent() {
 		//htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport_"+BaseClass.getCurrentTime()+".html");
 		String dateName = new SimpleDateFormat("dd_MM_yyyy_HH_mm_ss").format(new Date());
-		htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport_"+dateName+".html");
+		htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/ExtentReport/"+"MyReport_"+dateName+".html");
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+"/extent-config.xml");
 		//htmlReporter.config().setDocumentTitle("Automation Test Report");
 		//htmlReporter.config().setReportName("Test Automation Report"); 
@@ -35,10 +35,10 @@ public class ExtentManager extends BaseClass{
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		
-		extent.setSystemInfo("HostName", "InfoBeans");
+		extent.setSystemInfo("HostName", "Stage");
 		extent.setSystemInfo("ProjectName", "EVO");
-		extent.setSystemInfo("Tester", "Zaid");
-		extent.setSystemInfo("OS", "Win10");
+		extent.setSystemInfo("QA_Engineer", "Zaid");
+		extent.setSystemInfo("OS", "Windows_10");
 		extent.setSystemInfo("Browser", "Chrome");
 	}
 	public static void endReport() {

@@ -27,18 +27,18 @@ public class LoginPageTest extends BaseClass{
 	LoginPage loginpage;
 	
 	@Parameters("browser")
-	@BeforeMethod
+	@BeforeMethod(groups={"Smoke", "Regression"})
 	public void launchBrowser(String browser) throws IOException {
 		launchApp(browser);
 		loginpage = new LoginPage();
 	}
 	
-	@AfterMethod
+	@AfterMethod(groups={"Smoke", "Regression"})
 	public void teardown() {
 		getDriver().quit();
 	}
 	
-	@Test(priority = 1)
+	@Test(groups={"Smoke", "Regression"})
 	public void verifyENpage() throws Exception {
 		Log.startTestCase("VerifyENpage");
 		loginpage.checkEN();
@@ -49,7 +49,7 @@ public class LoginPageTest extends BaseClass{
 		Log.endTestCase("verifyENpage");
 	}
 	
-	@Test(priority = 2)
+	@Test(groups={"Regression"})
 	public void verifyARpage() throws Exception {
 		Log.startTestCase("verifyARpage");
 		loginpage.checkAR();
@@ -61,7 +61,7 @@ public class LoginPageTest extends BaseClass{
 				
 	}
 	
-	@Test(priority = 3)
+	@Test(groups={"Regression"})
 	public void verifyFRpage() throws Exception {
 		Log.startTestCase("verifyFRpage");
 		loginpage.checkFR();
@@ -73,7 +73,7 @@ public class LoginPageTest extends BaseClass{
 				
 	}
 	
-	@Test(priority = 4)
+	@Test(groups={"Smoke", "Regression"})
 	public void verifyLogin() throws Exception {
 		Log.startTestCase("verifyLogin");
 		Log.info("Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears");

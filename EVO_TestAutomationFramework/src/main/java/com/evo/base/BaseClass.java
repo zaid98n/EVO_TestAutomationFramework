@@ -30,13 +30,14 @@ public class BaseClass {
 	
 	public static Properties prop;
 	//public static WebDriver driver;
+	public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 	
-	@BeforeSuite
+	@BeforeSuite(groups={"Smoke", "Regression"})
 	public void reporting() {
 		ExtentManager.setExtent();
 	}
 	
-	@BeforeSuite
+	@BeforeSuite(groups={"Smoke", "Regression"})
 	public void loadconfig() throws IOException {
 		
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") +"\\Configuration\\config.properties");
@@ -45,17 +46,15 @@ public class BaseClass {
 		 prop.load(fis);
 	}
 	
-	@BeforeSuite
+	@BeforeSuite(groups={"Smoke", "Regression"})
 	public void logs() {
 		DOMConfigurator.configure("log4j.xml");
 	}
 	
-	@AfterSuite
+	@AfterSuite(groups={"Smoke", "Regression"})
 	public void reportingend() {
 		ExtentManager.endReport();
 	}
-	
-	public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 	
 	public static WebDriver getDriver() {
 		return driver.get();

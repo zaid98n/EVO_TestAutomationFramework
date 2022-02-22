@@ -19,26 +19,26 @@ import com.evo.base.BaseClass;
 public class LoginPage extends BaseClass{
 	
 	@FindBy(xpath = "/html/body/div[2]/a[1]")
-	WebElement engbtn;
+	private WebElement engbtn;
 	
 	@FindBy(xpath = "/html/body/div[2]/a[2]")
-	WebElement arbtn;
+	private WebElement arbtn;
 	
 	@FindBy(xpath = "/html/body/div[2]/a[3]")
-	WebElement frbtn;
+	private WebElement frbtn;
 	
 	@FindBy(xpath = "/html/body/app-root/app-login/div/div/div[2]/div/div/div[2]/form/div[1]/input")
-	WebElement username;
+	private WebElement username;
 	
 	@FindBy(xpath = "/html/body/app-root/app-login/div/div/div[2]/div/div/div[2]/form/div[2]/input")
-	WebElement password;
+	private WebElement password;
 	
 	
 	@FindBy(xpath = "/html/body/app-root/app-login/div/div/div[2]/div/div/div[2]/form/p-button/button/span")
-	WebElement loginbtn;
+	private WebElement loginbtn;
 	
 	@FindBy(xpath = "/html/body/app-root/app-login/p-confirmdialog/div/div[3]/p-footer/button[1]")
-	WebElement alreadyloginpopup;
+	private WebElement alreadyloginpopup;
 	
 	public LoginPage() {
 		PageFactory.initElements(getDriver(), this);
