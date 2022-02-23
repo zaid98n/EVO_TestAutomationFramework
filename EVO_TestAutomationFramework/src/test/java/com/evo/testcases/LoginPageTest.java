@@ -8,7 +8,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.evo.actiondriver.Action;
 import com.evo.base.BaseClass;
+import com.evo.pageobjects.DashboardPage;
 import com.evo.pageobjects.LoginPage;
 import com.evo.utility.Log;
 
@@ -25,6 +27,7 @@ import com.evo.utility.Log;
 public class LoginPageTest extends BaseClass{
 	
 	LoginPage loginpage;
+	DashboardPage dashboardpage;
 	
 	@Parameters("browser")
 	@BeforeMethod(groups={"Smoke", "Regression"})
@@ -38,22 +41,22 @@ public class LoginPageTest extends BaseClass{
 		getDriver().quit();
 	}
 	
-	@Test(groups={"Smoke", "Regression"})
+	@Test(priority=1, groups={"Smoke", "Regression"})
 	public void verifyENpage() throws Exception {
 		Log.startTestCase("VerifyENpage");
 		loginpage.checkEN();
-		String currenturl = loginpage.getURL();
+		String currenturl = Action.getCurrentURL(getDriver());
 		Log.info("Checking if EN page is loading");
 		Assert.assertEquals(currenturl, prop.getProperty("ENurl"));
 		Log.info("EN page successfully loaded");
 		Log.endTestCase("verifyENpage");
 	}
 	
-	@Test(groups={"Regression"})
+	@Test(priority=2, groups={"Regression"})
 	public void verifyARpage() throws Exception {
 		Log.startTestCase("verifyARpage");
 		loginpage.checkAR();
-		String currenturl = loginpage.getURL();
+		String currenturl = Action.getCurrentURL(getDriver());
 		Log.info("Checking if AR page is loading");
 		Assert.assertEquals(currenturl, prop.getProperty("ARurl"));
 		Log.info("AR page successfully loaded");
@@ -61,11 +64,11 @@ public class LoginPageTest extends BaseClass{
 				
 	}
 	
-	@Test(groups={"Regression"})
+	@Test(priority=3, groups={"Regression"})
 	public void verifyFRpage() throws Exception {
 		Log.startTestCase("verifyFRpage");
 		loginpage.checkFR();
-		String currenturl = loginpage.getURL();
+		String currenturl = Action.getCurrentURL(getDriver());
 		Log.info("Checking if FR page is loading");
 		Assert.assertEquals(currenturl, prop.getProperty("FRurl"));
 		Log.info("FR page successfully loaded");
@@ -73,17 +76,16 @@ public class LoginPageTest extends BaseClass{
 				
 	}
 	
-	@Test(groups={"Smoke", "Regression"})
+	@Test(priority=4, groups={"Smoke", "Regression"})
 	public void verifyLogin() throws Exception {
 		Log.startTestCase("verifyLogin");
 		Log.info("Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears");
-		loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
+		dashboardpage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
 		Thread.sleep(3000);
 		Log.info("verifying if login is success");
-		String currenturl = loginpage.getURL();
+		String currenturl = Action.getCurrentURL(getDriver());
 		Thread.sleep(1000);
-		String expectedurl = "https://ewsqa.enova-me.com/enova.cossp.app/en/dashboard";
-		Assert.assertEquals(currenturl, expectedurl);
+		Assert.assertEquals(currenturl, prop.getProperty("dashboardurl"));
 		Log.info("Login Success");
 		Log.endTestCase("verifyLogin");
 	}

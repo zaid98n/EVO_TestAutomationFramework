@@ -84,7 +84,7 @@ public class BaseClass {
 		getDriver().manage().window().maximize();
 		getDriver().manage().deleteAllCookies();
 		getDriver().get(prop.getProperty("ENurl"));
-		getDriver().manage().timeouts().implicitlyWait(Integer.parseInt(prop.getProperty("implicitwait")), TimeUnit.SECONDS);
+		getDriver().manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 	}
 	
 	

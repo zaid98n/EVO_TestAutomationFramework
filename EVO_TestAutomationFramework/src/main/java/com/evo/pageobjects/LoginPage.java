@@ -59,10 +59,10 @@ public class LoginPage extends BaseClass{
 		Action.click(getDriver(), frbtn);
 	}
 	
-	public String getURL() {
-		String currenturl = getDriver().getCurrentUrl();
-		return currenturl;
-	}
+//	public String getURL() {
+//		String currenturl = getDriver().getCurrentUrl();
+//		return currenturl;
+//	}
 	
 	public DashboardPage login(String uname, String Pwd) throws InterruptedException {
 		Action.fluentWait(getDriver(), engbtn, 10);

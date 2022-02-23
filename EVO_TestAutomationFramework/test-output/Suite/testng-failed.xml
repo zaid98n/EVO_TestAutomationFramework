@@ -14,8 +14,8 @@
           <include name="loadconfig"/>
           <include name="reporting"/>
           <include name="logs"/>
+          <include name="verifyARpage"/>
           <include name="launchBrowser"/>
-          <include name="verifyLogin"/>
         </methods>
       </class> <!-- com.evo.testcases.LoginPageTest -->
     </classes>

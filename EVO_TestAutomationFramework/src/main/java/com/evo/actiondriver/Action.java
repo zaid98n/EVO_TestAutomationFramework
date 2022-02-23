@@ -123,11 +123,11 @@ public class Action extends BaseClass {
 	}
 
 	/**
-	 * Type text at location
 	 * 
 	 * @param locatorName
 	 * @param text
 	 * @return - true/false
+	 * 
 	 */
 	
 	public static boolean type(WebElement ele, String text) {
@@ -136,7 +136,6 @@ public class Action extends BaseClass {
 			flag = ele.isDisplayed();
 			ele.clear();
 			ele.sendKeys(text);
-			// logger.info("Entered text :"+text);
 			flag = true;
 		} catch (Exception e) {
 			System.out.println("Location Not found");
@@ -322,7 +321,7 @@ public class Action extends BaseClass {
 	public static boolean switchToFrameByIndex(WebDriver driver,int index) {
 		boolean flag = false;
 		try {
-			new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe")));
+			//new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe")));
 			driver.switchTo().frame(index);
 			flag = true;
 			return true;
@@ -721,7 +720,7 @@ public class Action extends BaseClass {
 	}
 	
 	
-	public static boolean click1(WebElement locator, String locatorName) {
+	public static boolean simpleClick(WebElement locator, String locatorName) {
 		boolean flag = false;
 		try {
 			locator.click();
@@ -784,8 +783,8 @@ public class Action extends BaseClass {
 		return destination;
 	}
 	
-	public static String getCurrentTime() {
-		String currentDate = new SimpleDateFormat("yyyy-MM-dd-hhmmss").format(new Date());
+	public static String getCurrentDateTime() {
+		String currentDate = new SimpleDateFormat("dd_MM_yyyy_HH_mm_ss").format(new Date());
 		return currentDate;
 	}
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [CrossBrowser_Suite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.evo.utility.ListenerClass"/>
   </listeners>
-  <test thread-count="5" name="Firefox_Test(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="Normal_Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.evo.testcases.LoginPageTest">
         <methods>
@@ -14,10 +14,10 @@
           <include name="loadconfig"/>
           <include name="reporting"/>
           <include name="logs"/>
+          <include name="verifyARpage"/>
           <include name="launchBrowser"/>
-          <include name="verifyLogin"/>
         </methods>
       </class> <!-- com.evo.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- Firefox_Test(failed) -->
-</suite> <!-- Failed suite [CrossBrowser_Suite] -->
+  </test> <!-- Normal_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
