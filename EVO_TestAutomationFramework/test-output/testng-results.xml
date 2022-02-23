@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-23T14:24:22 IST" name="Smoke_Suite" finished-at="2022-02-23T14:24:38 IST" duration-ms="16542">
+  <suite started-at="2022-02-23T16:52:35 IST" name="Regression_Suite" finished-at="2022-02-23T16:53:14 IST" duration-ms="39385">
     <groups>
       <group name="Regression">
+        <method signature="LoginPageTest.verifyARpage()[pri:2, instance:com.evo.testcases.LoginPageTest@4d910fd6]" name="verifyARpage" class="com.evo.testcases.LoginPageTest"/>
         <method signature="LoginPageTest.verifyENpage()[pri:1, instance:com.evo.testcases.LoginPageTest@4d910fd6]" name="verifyENpage" class="com.evo.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyFRpage()[pri:3, instance:com.evo.testcases.LoginPageTest@4d910fd6]" name="verifyFRpage" class="com.evo.testcases.LoginPageTest"/>
         <method signature="LoginPageTest.verifyLogin()[pri:4, instance:com.evo.testcases.LoginPageTest@4d910fd6]" name="verifyLogin" class="com.evo.testcases.LoginPageTest"/>
       </group> <!-- Regression -->
       <group name="Smoke">
@@ -13,21 +15,21 @@
         <method signature="LoginPageTest.verifyLogin()[pri:4, instance:com.evo.testcases.LoginPageTest@4d910fd6]" name="verifyLogin" class="com.evo.testcases.LoginPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-02-23T14:24:22 IST" name="Smoke_Test" finished-at="2022-02-23T14:24:38 IST" duration-ms="16542">
+    <test started-at="2022-02-23T16:52:35 IST" name="Regression_Test" finished-at="2022-02-23T16:53:14 IST" duration-ms="39385">
       <class name="com.evo.testcases.LoginPageTest">
-        <test-method is-config="true" signature="loadconfig()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T14:24:22 IST" name="loadconfig" finished-at="2022-02-23T14:24:22 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="loadconfig()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:34 IST" name="loadconfig" finished-at="2022-02-23T16:52:34 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadconfig -->
-        <test-method is-config="true" signature="logs()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T14:24:22 IST" name="logs" finished-at="2022-02-23T14:24:22 IST" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="logs()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:34 IST" name="logs" finished-at="2022-02-23T16:52:34 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logs -->
-        <test-method is-config="true" signature="reporting()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T14:24:22 IST" name="reporting" finished-at="2022-02-23T14:24:22 IST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="reporting()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:34 IST" name="reporting" finished-at="2022-02-23T16:52:35 IST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporting -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T14:24:22 IST" name="launchBrowser" finished-at="2022-02-23T14:24:26 IST" duration-ms="4307" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:35 IST" name="launchBrowser" finished-at="2022-02-23T16:52:40 IST" duration-ms="4955" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,15 +40,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyENpage()[pri:1, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T14:24:26 IST" name="verifyENpage" finished-at="2022-02-23T14:24:27 IST" duration-ms="994" status="PASS">
+        <test-method signature="verifyENpage()[pri:1, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:40 IST" name="verifyENpage" finished-at="2022-02-23T16:52:41 IST" duration-ms="1165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyENpage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T14:24:27 IST" name="teardown" finished-at="2022-02-23T14:24:27 IST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:41 IST" name="teardown" finished-at="2022-02-23T16:52:41 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T14:24:27 IST" name="launchBrowser" finished-at="2022-02-23T14:24:31 IST" duration-ms="3186" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:41 IST" name="launchBrowser" finished-at="2022-02-23T16:52:45 IST" duration-ms="4073" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,19 +59,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLogin()[pri:4, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T14:24:31 IST" name="verifyLogin" finished-at="2022-02-23T14:24:38 IST" duration-ms="7630" status="PASS">
+        <test-method signature="verifyARpage()[pri:2, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:45 IST" name="verifyARpage" finished-at="2022-02-23T16:52:51 IST" duration-ms="5911" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T14:24:38 IST" name="teardown" finished-at="2022-02-23T14:24:38 IST" duration-ms="201" status="PASS">
+        </test-method> <!-- verifyARpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:51 IST" name="teardown" finished-at="2022-02-23T16:52:51 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="reportingend()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T14:24:38 IST" name="reportingend" finished-at="2022-02-23T14:24:39 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:51 IST" name="launchBrowser" finished-at="2022-02-23T16:52:55 IST" duration-ms="3839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFRpage()[pri:3, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:52:55 IST" name="verifyFRpage" finished-at="2022-02-23T16:53:03 IST" duration-ms="7973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFRpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:53:03 IST" name="teardown" finished-at="2022-02-23T16:53:03 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:53:03 IST" name="launchBrowser" finished-at="2022-02-23T16:53:07 IST" duration-ms="3576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLogin()[pri:4, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:53:07 IST" name="verifyLogin" finished-at="2022-02-23T16:53:14 IST" duration-ms="6953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:53:14 IST" name="teardown" finished-at="2022-02-23T16:53:14 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reportingend()[pri:0, instance:com.evo.testcases.LoginPageTest@4d910fd6]" started-at="2022-02-23T16:53:14 IST" name="reportingend" finished-at="2022-02-23T16:53:14 IST" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportingend -->
       </class> <!-- com.evo.testcases.LoginPageTest -->
-    </test> <!-- Smoke_Test -->
-  </suite> <!-- Smoke_Suite -->
+    </test> <!-- Regression_Test -->
+  </suite> <!-- Regression_Suite -->
 </testng-results>

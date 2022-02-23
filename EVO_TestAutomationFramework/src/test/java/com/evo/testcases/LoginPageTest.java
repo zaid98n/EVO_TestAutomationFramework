@@ -81,10 +81,8 @@ public class LoginPageTest extends BaseClass{
 		Log.startTestCase("verifyLogin");
 		Log.info("Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears");
 		dashboardpage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
-		Thread.sleep(3000);
 		Log.info("verifying if login is success");
 		String currenturl = Action.getCurrentURL(getDriver());
-		Thread.sleep(1000);
 		Assert.assertEquals(currenturl, prop.getProperty("dashboardurl"));
 		Log.info("Login Success");
 		Log.endTestCase("verifyLogin");

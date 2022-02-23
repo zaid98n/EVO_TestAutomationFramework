@@ -62,10 +62,10 @@ public class Action extends BaseClass {
 			flag = false;
 		} finally {
 			if (flag) {
-				System.out.println("Successfully Found element at");
+				//System.out.println("Successfully Found element at");
 
 			} else {
-				System.out.println("Unable to locate element at");
+				//System.out.println("Unable to locate element at");
 			}
 		}
 		return flag;
@@ -78,12 +78,12 @@ public class Action extends BaseClass {
 		if (flag) {
 			flag = ele.isDisplayed();
 			if (flag) {
-				System.out.println("The element is Displayed");
+				//System.out.println("The element is Displayed");
 			} else {
-				System.out.println("The element is not Displayed");
+				//System.out.println("The element is not Displayed");
 			}
 		} else {
-			System.out.println("Not displayed ");
+			//System.out.println("Not displayed ");
 		}
 		return flag;
 	}
@@ -95,12 +95,12 @@ public class Action extends BaseClass {
 		if (flag) {
 			flag = ele.isSelected();
 			if (flag) {
-				System.out.println("The element is Selected");
+				//System.out.println("The element is Selected");
 			} else {
-				System.out.println("The element is not Selected");
+				//System.out.println("The element is not Selected");
 			}
 		} else {
-			System.out.println("Not selected ");
+			//System.out.println("Not selected ");
 		}
 		return flag;
 	}
@@ -112,12 +112,12 @@ public class Action extends BaseClass {
 		if (flag) {
 			flag = ele.isEnabled();
 			if (flag) {
-				System.out.println("The element is Enabled");
+				//System.out.println("The element is Enabled");
 			} else {
-				System.out.println("The element is not Enabled");
+				//System.out.println("The element is not Enabled");
 			}
 		} else {
-			System.out.println("Not Enabled ");
+			//System.out.println("Not Enabled ");
 		}
 		return flag;
 	}
@@ -142,9 +142,9 @@ public class Action extends BaseClass {
 			flag = false;
 		} finally {
 			if (flag) {
-				System.out.println("Successfully entered value");
+				//System.out.println("Successfully entered value");
 			} else {
-				System.out.println("Unable to enter value");
+				//System.out.println("Unable to enter value");
 			}
 
 		}
@@ -163,9 +163,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Select value from the DropDown");		
+				//System.out.println("Select value from the DropDown");		
 			} else {
-				System.out.println("Not Selected value from the DropDown");
+				//System.out.println("Not Selected value from the DropDown");
 				// throw new ElementNotFoundException("", "", "")
 			}
 		}
@@ -195,9 +195,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Option selected by Index");
+				//System.out.println("Option selected by Index");
 			} else {
-				System.out.println("Option not selected by Index");
+				//System.out.println("Option not selected by Index");
 			}
 		}
 	}
@@ -227,9 +227,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Option selected by Value");
+				//System.out.println("Option selected by Value");
 			} else {
-				System.out.println("Option not selected by Value");
+				//System.out.println("Option not selected by Value");
 			}
 		}
 	}
@@ -258,9 +258,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Option selected by VisibleText");
+				//System.out.println("Option selected by VisibleText");
 			} else {
-				System.out.println("Option not selected by VisibleText");
+				//System.out.println("Option not selected by VisibleText");
 			}
 		}
 	}
@@ -284,9 +284,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("MouseOver Action is performed");
+				//System.out.println("MouseOver Action is performed");
 			} else {
-				System.out.println("MouseOver Action is not performed");
+				//System.out.println("MouseOver Action is not performed");
 			}
 		}
 	}
@@ -309,9 +309,9 @@ public class Action extends BaseClass {
 
 		} finally {
 			if (flag) {
-				System.out.println("Click Action is performed");
+				//System.out.println("Click Action is performed");
 			} else if (!flag) {
-				System.out.println("Click Action is not performed");
+				//System.out.println("Click Action is not performed");
 			}
 		}
 		return flag;
@@ -330,9 +330,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Frame with index \"" + index + "\" is selected");
+				//System.out.println("Frame with index \"" + index + "\" is selected");
 			} else {
-				System.out.println("Frame with index \"" + index + "\" is not selected");
+				//System.out.println("Frame with index \"" + index + "\" is not selected");
 			}
 		}
 	}
@@ -356,9 +356,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Frame with Id \"" + idValue + "\" is selected");
+				//System.out.println("Frame with Id \"" + idValue + "\" is selected");
 			} else {
-				System.out.println("Frame with Id \"" + idValue + "\" is not selected");
+				//System.out.println("Frame with Id \"" + idValue + "\" is not selected");
 			}
 		}
 	}
@@ -381,9 +381,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Frame with Name \"" + nameValue + "\" is selected");
+				//System.out.println("Frame with Name \"" + nameValue + "\" is selected");
 			} else if (!flag) {
-				System.out.println("Frame with Name \"" + nameValue + "\" is not selected");
+				//System.out.println("Frame with Name \"" + nameValue + "\" is not selected");
 			}
 		}
 	}
@@ -417,9 +417,9 @@ public class Action extends BaseClass {
 			e.printStackTrace();
 		} finally {
 			if (flag) {
-				System.out.println(" MouserOver Action is performed on ");
+				//System.out.println(" MouserOver Action is performed on ");
 			} else {
-				System.out.println("MouseOver action is not performed on");
+				//System.out.println("MouseOver action is not performed on");
 			}
 		}
 	}
@@ -476,9 +476,9 @@ public class Action extends BaseClass {
 			
 		} finally {
 			if (flag) {
-				System.out.println("Draggable Action is performed on \""+source+"\"");			
+				//System.out.println("Draggable Action is performed on \""+source+"\"");			
 			} else if(!flag) {
-				System.out.println("Draggable action is not performed on \""+source+"\"");
+				//System.out.println("Draggable action is not performed on \""+source+"\"");
 			}
 		}
 	}
@@ -494,9 +494,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("DragAndDrop Action is performed");
+				//System.out.println("DragAndDrop Action is performed");
 			} else if(!flag) {
-				System.out.println("DragAndDrop Action is not performed");
+				//System.out.println("DragAndDrop Action is not performed");
 			}
 		}
 	}
@@ -516,9 +516,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Slider Action is performed");
+				//System.out.println("Slider Action is performed");
 			} else {
-				System.out.println("Slider Action is not performed");
+				//System.out.println("Slider Action is not performed");
 			}
 		}
 	}
@@ -537,9 +537,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("RightClick Action is performed");
+				//System.out.println("RightClick Action is performed");
 			} else {
-				System.out.println("RightClick Action is not performed");
+				//System.out.println("RightClick Action is not performed");
 			}
 		}
 	}
@@ -565,9 +565,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Navigated to the window with title");
+				//System.out.println("Navigated to the window with title");
 			} else {
-				System.out.println("The Window with title is not Selected");
+				//System.out.println("The Window with title is not Selected");
 			}
 		}
 	}
@@ -586,9 +586,9 @@ public class Action extends BaseClass {
 			return flag;
 		} finally {
 			if (flag) {
-				System.out.println("Window is Navigated with title");				
+				//System.out.println("Window is Navigated with title");				
 			} else {
-				System.out.println("The Window with title: is not Selected");
+				//System.out.println("The Window with title: is not Selected");
 			}
 		}
 	}
@@ -607,9 +607,9 @@ public class Action extends BaseClass {
 			return flag;
 		} finally {
 			if (flag) {
-				System.out.println("Focus navigated to the window with title");			
+				//System.out.println("Focus navigated to the window with title");			
 			} else {
-				System.out.println("The Window with title: is not Selected");
+				//System.out.println("The Window with title: is not Selected");
 			}
 		}
 	}
@@ -657,9 +657,9 @@ public class Action extends BaseClass {
 			ex.printStackTrace();
 		} finally {
 			if (!presentFlag) {
-				System.out.println("The Alert is handled successfully");		
+				//System.out.println("The Alert is handled successfully");		
 			} else{
-				System.out.println("There was no alert to handle");
+				//System.out.println("There was no alert to handle");
 			}
 		}
 
@@ -676,9 +676,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Successfully launched \""+url+"\"");				
+				//System.out.println("Successfully launched \""+url+"\"");				
 			} else {
-				System.out.println("Failed to launch \""+url+"\"");
+				//System.out.println("Failed to launch \""+url+"\"");
 			}
 		}
 	}
@@ -703,7 +703,7 @@ public class Action extends BaseClass {
 
 		String text = driver.getTitle();
 		if (flag) {
-			System.out.println("Title of the page is: \""+text+"\"");
+			//System.out.println("Title of the page is: \""+text+"\"");
 		}
 		return text;
 	}
@@ -714,7 +714,7 @@ public class Action extends BaseClass {
 
 		String text = driver.getCurrentUrl();
 		if (flag) {
-			System.out.println("Current URL is: \""+text+"\"");
+			//System.out.println("Current URL is: \""+text+"\"");
 		}
 		return text;
 	}
@@ -730,9 +730,9 @@ public class Action extends BaseClass {
 			return false;
 		} finally {
 			if (flag) {
-				System.out.println("Able to click on \""+locatorName+"\"");
+				//System.out.println("Able to click on \""+locatorName+"\"");
 			} else {
-				System.out.println("Click Unable to click on \""+locatorName+"\"");
+				//System.out.println("Click Unable to click on \""+locatorName+"\"");
 			}
 		}
 

@@ -355,3 +355,90 @@
 2022-02-23 14:24:37 INFO  Log:32 - verifying if login is success
 2022-02-23 14:24:38 INFO  Log:32 - Login Success
 2022-02-23 14:24:38 INFO  Log:25 - ==========verifyLogin TEST END==========
+2022-02-23 16:32:36 INFO  Log:20 -  
+2022-02-23 16:32:36 INFO  Log:21 - ==========VerifyENpage TEST START==========
+2022-02-23 16:32:38 INFO  Log:32 - Checking if EN page is loading
+2022-02-23 16:32:38 INFO  Log:32 - EN page successfully loaded
+2022-02-23 16:32:38 INFO  Log:25 - ==========verifyENpage TEST END==========
+2022-02-23 16:32:45 INFO  Log:20 -  
+2022-02-23 16:32:45 INFO  Log:21 - ==========verifyLogin TEST START==========
+2022-02-23 16:32:45 INFO  Log:32 - Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears
+2022-02-23 16:32:55 INFO  Log:32 - verifying if login is success
+2022-02-23 16:32:58 INFO  Log:32 - Login Success
+2022-02-23 16:32:58 INFO  Log:25 - ==========verifyLogin TEST END==========
+2022-02-23 16:37:02 INFO  Log:20 -  
+2022-02-23 16:37:02 INFO  Log:21 - ==========VerifyENpage TEST START==========
+2022-02-23 16:37:03 INFO  Log:32 - Checking if EN page is loading
+2022-02-23 16:37:03 INFO  Log:32 - EN page successfully loaded
+2022-02-23 16:37:03 INFO  Log:25 - ==========verifyENpage TEST END==========
+2022-02-23 16:37:07 INFO  Log:20 -  
+2022-02-23 16:37:07 INFO  Log:21 - ==========verifyLogin TEST START==========
+2022-02-23 16:37:07 INFO  Log:32 - Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears
+2022-02-23 16:37:14 INFO  Log:32 - verifying if login is success
+2022-02-23 16:37:14 INFO  Log:32 - Login Success
+2022-02-23 16:37:14 INFO  Log:25 - ==========verifyLogin TEST END==========
+2022-02-23 16:40:08 INFO  Log:20 -  
+2022-02-23 16:40:08 INFO  Log:21 - ==========VerifyENpage TEST START==========
+2022-02-23 16:40:09 INFO  Log:32 - Checking if EN page is loading
+2022-02-23 16:40:09 INFO  Log:32 - EN page successfully loaded
+2022-02-23 16:40:09 INFO  Log:25 - ==========verifyENpage TEST END==========
+2022-02-23 16:40:13 INFO  Log:20 -  
+2022-02-23 16:40:13 INFO  Log:21 - ==========verifyLogin TEST START==========
+2022-02-23 16:40:13 INFO  Log:32 - Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears
+2022-02-23 16:40:22 INFO  Log:32 - verifying if login is success
+2022-02-23 16:40:22 INFO  Log:32 - Login Success
+2022-02-23 16:40:22 INFO  Log:25 - ==========verifyLogin TEST END==========
+2022-02-23 16:42:55 INFO  Log:20 -  
+2022-02-23 16:42:55 INFO  Log:21 - ==========VerifyENpage TEST START==========
+2022-02-23 16:42:56 INFO  Log:32 - Checking if EN page is loading
+2022-02-23 16:42:56 INFO  Log:32 - EN page successfully loaded
+2022-02-23 16:42:56 INFO  Log:25 - ==========verifyENpage TEST END==========
+2022-02-23 16:43:01 INFO  Log:20 -  
+2022-02-23 16:43:01 INFO  Log:21 - ==========verifyLogin TEST START==========
+2022-02-23 16:43:01 INFO  Log:32 - Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears
+2022-02-23 16:43:07 INFO  Log:32 - verifying if login is success
+2022-02-23 16:43:07 INFO  Log:32 - Login Success
+2022-02-23 16:43:07 INFO  Log:25 - ==========verifyLogin TEST END==========
+2022-02-23 16:43:56 INFO  Log:20 -  
+2022-02-23 16:43:56 INFO  Log:21 - ==========VerifyENpage TEST START==========
+2022-02-23 16:43:57 INFO  Log:32 - Checking if EN page is loading
+2022-02-23 16:43:57 INFO  Log:32 - EN page successfully loaded
+2022-02-23 16:43:57 INFO  Log:25 - ==========verifyENpage TEST END==========
+2022-02-23 16:44:02 INFO  Log:20 -  
+2022-02-23 16:44:02 INFO  Log:21 - ==========verifyLogin TEST START==========
+2022-02-23 16:44:02 INFO  Log:32 - Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears
+2022-02-23 16:44:10 INFO  Log:32 - verifying if login is success
+2022-02-23 16:44:11 INFO  Log:32 - Login Success
+2022-02-23 16:44:11 INFO  Log:25 - ==========verifyLogin TEST END==========
+2022-02-23 16:50:55 INFO  Log:20 -  
+2022-02-23 16:50:55 INFO  Log:21 - ==========VerifyENpage TEST START==========
+2022-02-23 16:50:56 INFO  Log:32 - Checking if EN page is loading
+2022-02-23 16:50:56 INFO  Log:32 - EN page successfully loaded
+2022-02-23 16:50:56 INFO  Log:25 - ==========verifyENpage TEST END==========
+2022-02-23 16:51:01 INFO  Log:20 -  
+2022-02-23 16:51:01 INFO  Log:21 - ==========verifyLogin TEST START==========
+2022-02-23 16:51:01 INFO  Log:32 - Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears
+2022-02-23 16:51:08 INFO  Log:32 - verifying if login is success
+2022-02-23 16:51:08 INFO  Log:32 - Login Success
+2022-02-23 16:51:08 INFO  Log:25 - ==========verifyLogin TEST END==========
+2022-02-23 16:52:40 INFO  Log:20 -  
+2022-02-23 16:52:40 INFO  Log:21 - ==========VerifyENpage TEST START==========
+2022-02-23 16:52:41 INFO  Log:32 - Checking if EN page is loading
+2022-02-23 16:52:41 INFO  Log:32 - EN page successfully loaded
+2022-02-23 16:52:41 INFO  Log:25 - ==========verifyENpage TEST END==========
+2022-02-23 16:52:45 INFO  Log:20 -  
+2022-02-23 16:52:45 INFO  Log:21 - ==========verifyARpage TEST START==========
+2022-02-23 16:52:51 INFO  Log:32 - Checking if AR page is loading
+2022-02-23 16:52:51 INFO  Log:32 - AR page successfully loaded
+2022-02-23 16:52:51 INFO  Log:25 - ==========verifyARpage TEST END==========
+2022-02-23 16:52:55 INFO  Log:20 -  
+2022-02-23 16:52:55 INFO  Log:21 - ==========verifyFRpage TEST START==========
+2022-02-23 16:53:03 INFO  Log:32 - Checking if FR page is loading
+2022-02-23 16:53:03 INFO  Log:32 - FR page successfully loaded
+2022-02-23 16:53:03 INFO  Log:25 - ==========verifyFRpage TEST END==========
+2022-02-23 16:53:07 INFO  Log:20 -  
+2022-02-23 16:53:07 INFO  Log:21 - ==========verifyLogin TEST START==========
+2022-02-23 16:53:07 INFO  Log:32 - Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears
+2022-02-23 16:53:14 INFO  Log:32 - verifying if login is success
+2022-02-23 16:53:14 INFO  Log:32 - Login Success
+2022-02-23 16:53:14 INFO  Log:25 - ==========verifyLogin TEST END==========

@@ -59,26 +59,25 @@ public class LoginPage extends BaseClass{
 		Action.click(getDriver(), frbtn);
 	}
 	
-//	public String getURL() {
-//		String currenturl = getDriver().getCurrentUrl();
-//		return currenturl;
-//	}
-	
 	public DashboardPage login(String uname, String Pwd) throws InterruptedException {
-		Action.fluentWait(getDriver(), engbtn, 10);
-		Action.click(getDriver(), engbtn);
+		Action.fluentWait(getDriver(), username, 10);
 		Action.type(username, uname);
 		Action.type(password, Pwd);
 		Action.fluentWait(getDriver(), loginbtn, 10);
 		Action.click(getDriver(), loginbtn);
 		Thread.sleep(2000);
-		try{
-			Action.isDisplayed(getDriver(), alreadyloginpopup);
+		if(Action.isDisplayed(getDriver(), alreadyloginpopup)) {
 			Action.click(getDriver(), alreadyloginpopup);
 		}
-		catch (Exception e) {
-			// TODO: handle exception
-		}
+//		try{
+//			Action.fluentWait(getDriver(), alreadyloginpopup, 10);
+//			Action.isDisplayed(getDriver(), alreadyloginpopup);
+//			Action.click(getDriver(), alreadyloginpopup);
+//		}
+//		catch (Exception e) {
+//			// TODO: handle exception
+//		}
+		Thread.sleep(4000);
 		return new DashboardPage();
 	}
 
