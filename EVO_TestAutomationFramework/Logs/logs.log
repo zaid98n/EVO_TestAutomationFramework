@@ -442,3 +442,24 @@
 2022-02-23 16:53:14 INFO  Log:32 - verifying if login is success
 2022-02-23 16:53:14 INFO  Log:32 - Login Success
 2022-02-23 16:53:14 INFO  Log:25 - ==========verifyLogin TEST END==========
+2022-02-24 16:33:31 INFO  Log:20 -  
+2022-02-24 16:33:31 INFO  Log:21 - ==========VerifyENpage TEST START==========
+2022-02-24 16:33:32 INFO  Log:32 - Checking if EN page is loading
+2022-02-24 16:33:32 INFO  Log:32 - EN page successfully loaded
+2022-02-24 16:33:32 INFO  Log:25 - ==========verifyENpage TEST END==========
+2022-02-24 16:33:36 INFO  Log:20 -  
+2022-02-24 16:33:36 INFO  Log:21 - ==========verifyARpage TEST START==========
+2022-02-24 16:33:42 INFO  Log:32 - Checking if AR page is loading
+2022-02-24 16:33:42 INFO  Log:32 - AR page successfully loaded
+2022-02-24 16:33:42 INFO  Log:25 - ==========verifyARpage TEST END==========
+2022-02-24 16:33:45 INFO  Log:20 -  
+2022-02-24 16:33:45 INFO  Log:21 - ==========verifyFRpage TEST START==========
+2022-02-24 16:33:52 INFO  Log:32 - Checking if FR page is loading
+2022-02-24 16:33:52 INFO  Log:32 - FR page successfully loaded
+2022-02-24 16:33:52 INFO  Log:25 - ==========verifyFRpage TEST END==========
+2022-02-24 16:33:55 INFO  Log:20 -  
+2022-02-24 16:33:55 INFO  Log:21 - ==========verifyLogin TEST START==========
+2022-02-24 16:33:55 INFO  Log:32 - Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears
+2022-02-24 16:34:02 INFO  Log:32 - verifying if login is success
+2022-02-24 16:34:03 INFO  Log:32 - Login Success
+2022-02-24 16:34:03 INFO  Log:25 - ==========verifyLogin TEST END==========
