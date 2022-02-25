@@ -8,18 +8,21 @@
 	<parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="com.evo.testcases.LoginPageTest"/>
+	  <class name="com.evo.testcases.DashboardPageTest"/>
     </classes>
   </test> <!-- Test -->
 <test name="Firefox_Test">
 	<parameter name="browser" value="firefox"></parameter>
     <classes>
       <class name="com.evo.testcases.LoginPageTest"/>
+	  <class name="com.evo.testcases.DashboardPageTest"/>
     </classes>
   </test> <!-- Test -->
 <test name="Edge_Test">
 	<parameter name="browser" value="edge"></parameter>
     <classes>
       <class name="com.evo.testcases.LoginPageTest"/>
+	  <class name="com.evo.testcases.DashboardPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

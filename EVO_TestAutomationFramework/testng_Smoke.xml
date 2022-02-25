@@ -13,6 +13,7 @@
 	</groups>
     <classes>
       <class name="com.evo.testcases.LoginPageTest"/>
+	  <class name="com.evo.testcases.DashboardPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

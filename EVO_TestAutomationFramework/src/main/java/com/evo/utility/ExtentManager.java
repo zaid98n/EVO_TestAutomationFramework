@@ -22,9 +22,8 @@ public class ExtentManager extends BaseClass{
 	public static ExtentTest test;
 	
 	public static void setExtent() {
-		//htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport_"+BaseClass.getCurrentTime()+".html");
 		String dateName = Action.getCurrentDateTime();
-		htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/ExtentReport/"+"MyReport_"+dateName+".html");
+		htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/ExtentReport/"+"TestReport_"+dateName+".html");
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+"/extent-config.xml");
 		//htmlReporter.config().setDocumentTitle("Automation Test Report");
 		//htmlReporter.config().setReportName("Test Automation Report"); 

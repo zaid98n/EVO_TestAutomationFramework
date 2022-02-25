@@ -5,8 +5,22 @@
     <listener class-name="com.evo.utility.ListenerClass"/>
   </listeners>
   <test thread-count="5" name="Normal_Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="edge"/>
     <classes>
+      <class name="com.evo.testcases.LoginPageTest">
+        <methods>
+          <include name="reportingend"/>
+          <include name="teardown"/>
+          <include name="verifyENpage"/>
+          <include name="loadconfig"/>
+          <include name="reporting"/>
+          <include name="logs"/>
+          <include name="verifyARpage"/>
+          <include name="launchBrowser"/>
+          <include name="verifyLogin"/>
+          <include name="verifyFRpage"/>
+        </methods>
+      </class> <!-- com.evo.testcases.LoginPageTest -->
       <class name="com.evo.testcases.DashboardPageTest">
         <methods>
           <include name="verifyFifthWidgetTest"/>
@@ -19,6 +33,7 @@
           <include name="verifyFourthWidgetTest"/>
           <include name="launchBrowser"/>
           <include name="teardown"/>
+          <include name="clickWidgetviewTest"/>
           <include name="verifyThirdWidgetTest"/>
         </methods>
       </class> <!-- com.evo.testcases.DashboardPageTest -->

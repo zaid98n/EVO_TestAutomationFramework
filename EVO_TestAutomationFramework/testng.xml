@@ -4,7 +4,7 @@
 <listeners>
 	<listener class-name="com.evo.utility.ListenerClass"></listener>
 </listeners>
-  <test name="Normal_Test">
+  <test name="All_Test">
 	<parameter name="browser" value="chrome"></parameter>
     <classes>
       <class name="com.evo.testcases.LoginPageTest"/>
