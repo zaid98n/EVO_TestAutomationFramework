@@ -11,6 +11,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -134,7 +135,8 @@ public class Action extends BaseClass {
 		boolean flag = false;
 		try {
 			flag = ele.isDisplayed();
-			ele.clear();
+			ele.sendKeys(Keys.chord(Keys.CONTROL, "a"));
+			ele.sendKeys(Keys.DELETE);
 			ele.sendKeys(text);
 			flag = true;
 		} catch (Exception e) {
@@ -265,6 +267,33 @@ public class Action extends BaseClass {
 		}
 	}
 
+	
+	@SuppressWarnings("unused")
+	public static boolean pageUp() {
+		boolean flag = false;
+		try {
+			Actions build = new Actions(getDriver());
+			build.sendKeys(Keys.HOME).build().perform();
+			flag = true;
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
+	@SuppressWarnings("unused")
+	public static boolean pageDown() {
+		boolean flag = false;
+		try {
+			Actions build = new Actions(getDriver());
+			build.sendKeys(Keys.END).build().perform();
+			flag = true;
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
 	
 	public static boolean mouseHoverByJavaScript(WebElement ele) {
 		boolean flag = false;

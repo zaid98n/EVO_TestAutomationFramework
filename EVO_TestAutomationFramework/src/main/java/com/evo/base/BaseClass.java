@@ -32,6 +32,10 @@ public class BaseClass {
 	//public static WebDriver driver;
 	public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 	
+	public static WebDriver getDriver() {
+		return driver.get();
+	}
+	
 	@BeforeSuite(groups={"Smoke", "Regression"})
 	public void reporting() {
 		ExtentManager.setExtent();
@@ -54,10 +58,6 @@ public class BaseClass {
 	@AfterSuite(groups={"Smoke", "Regression"})
 	public void reportingend() {
 		ExtentManager.endReport();
-	}
-	
-	public static WebDriver getDriver() {
-		return driver.get();
 	}
 	
 	public static void launchApp(String browser) {

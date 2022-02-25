@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="4" total="14" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-24T16:33:20 IST" name="Suite" finished-at="2022-02-24T16:34:03 IST" duration-ms="43457">
+  <suite started-at="2022-02-25T13:10:47 IST" name="Suite" finished-at="2022-02-25T13:12:44 IST" duration-ms="116806">
     <groups>
       <group name="Regression">
-        <method signature="LoginPageTest.verifyARpage()[pri:2, instance:com.evo.testcases.LoginPageTest@4da4253]" name="verifyARpage" class="com.evo.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyENpage()[pri:1, instance:com.evo.testcases.LoginPageTest@4da4253]" name="verifyENpage" class="com.evo.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyFRpage()[pri:3, instance:com.evo.testcases.LoginPageTest@4da4253]" name="verifyFRpage" class="com.evo.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyLogin()[pri:4, instance:com.evo.testcases.LoginPageTest@4da4253]" name="verifyLogin" class="com.evo.testcases.LoginPageTest"/>
+        <method signature="DashboardPageTest.clickWidgetviewTest()[pri:1, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="clickWidgetviewTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verfyFirstWidgetTest()[pri:2, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="verfyFirstWidgetTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifyFifthWidgetTest()[pri:6, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="verifyFifthWidgetTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifyFourthWidgetTest()[pri:5, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="verifyFourthWidgetTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifySecondWidgetTest()[pri:3, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="verifySecondWidgetTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifyThirdWidgetTest()[pri:4, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="verifyThirdWidgetTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="LoginPageTest.verifyARpage()[pri:2, instance:com.evo.testcases.LoginPageTest@140c9f39]" name="verifyARpage" class="com.evo.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyENpage()[pri:1, instance:com.evo.testcases.LoginPageTest@140c9f39]" name="verifyENpage" class="com.evo.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyFRpage()[pri:3, instance:com.evo.testcases.LoginPageTest@140c9f39]" name="verifyFRpage" class="com.evo.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLogin()[pri:4, instance:com.evo.testcases.LoginPageTest@140c9f39]" name="verifyLogin" class="com.evo.testcases.LoginPageTest"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="LoginPageTest.verifyENpage()[pri:1, instance:com.evo.testcases.LoginPageTest@4da4253]" name="verifyENpage" class="com.evo.testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.verifyLogin()[pri:4, instance:com.evo.testcases.LoginPageTest@4da4253]" name="verifyLogin" class="com.evo.testcases.LoginPageTest"/>
+        <method signature="DashboardPageTest.clickWidgetviewTest()[pri:1, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="clickWidgetviewTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verfyFirstWidgetTest()[pri:2, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="verfyFirstWidgetTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifyFifthWidgetTest()[pri:6, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="verifyFifthWidgetTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifyFourthWidgetTest()[pri:5, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="verifyFourthWidgetTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifySecondWidgetTest()[pri:3, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="verifySecondWidgetTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="DashboardPageTest.verifyThirdWidgetTest()[pri:4, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" name="verifyThirdWidgetTest" class="com.evo.testcases.DashboardPageTest"/>
+        <method signature="LoginPageTest.verifyENpage()[pri:1, instance:com.evo.testcases.LoginPageTest@140c9f39]" name="verifyENpage" class="com.evo.testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLogin()[pri:4, instance:com.evo.testcases.LoginPageTest@140c9f39]" name="verifyLogin" class="com.evo.testcases.LoginPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-02-24T16:33:20 IST" name="Normal_Test" finished-at="2022-02-24T16:34:03 IST" duration-ms="43457">
+    <test started-at="2022-02-25T13:10:47 IST" name="Normal_Test" finished-at="2022-02-25T13:12:44 IST" duration-ms="116806">
       <class name="com.evo.testcases.LoginPageTest">
-        <test-method is-config="true" signature="loadconfig()[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:19 IST" name="loadconfig" finished-at="2022-02-24T16:33:19 IST" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="loadconfig()[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:10:47 IST" name="loadconfig" finished-at="2022-02-25T13:10:47 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadconfig -->
-        <test-method is-config="true" signature="logs()[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:19 IST" name="logs" finished-at="2022-02-24T16:33:19 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="logs()[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:10:47 IST" name="logs" finished-at="2022-02-25T13:10:47 IST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logs -->
-        <test-method is-config="true" signature="reporting()[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:19 IST" name="reporting" finished-at="2022-02-24T16:33:20 IST" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="reporting()[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:10:47 IST" name="reporting" finished-at="2022-02-25T13:10:47 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporting -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:20 IST" name="launchBrowser" finished-at="2022-02-24T16:33:31 IST" duration-ms="11153" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:10:47 IST" name="launchBrowser" finished-at="2022-02-25T13:10:52 IST" duration-ms="4310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,15 +52,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyENpage()[pri:1, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:31 IST" name="verifyENpage" finished-at="2022-02-24T16:33:32 IST" duration-ms="1424" status="PASS">
+        <test-method signature="verifyENpage()[pri:1, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:10:52 IST" name="verifyENpage" finished-at="2022-02-25T13:10:53 IST" duration-ms="880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyENpage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:32 IST" name="teardown" finished-at="2022-02-24T16:33:32 IST" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:10:53 IST" name="teardown" finished-at="2022-02-25T13:10:53 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:32 IST" name="launchBrowser" finished-at="2022-02-24T16:33:36 IST" duration-ms="3372" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:10:53 IST" name="launchBrowser" finished-at="2022-02-25T13:10:56 IST" duration-ms="3447" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,15 +71,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyARpage()[pri:2, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:36 IST" name="verifyARpage" finished-at="2022-02-24T16:33:42 IST" duration-ms="6210" status="PASS">
+        <test-method signature="verifyARpage()[pri:2, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:10:56 IST" name="verifyARpage" finished-at="2022-02-25T13:11:02 IST" duration-ms="6021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyARpage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:42 IST" name="teardown" finished-at="2022-02-24T16:33:42 IST" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:11:02 IST" name="teardown" finished-at="2022-02-25T13:11:03 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:42 IST" name="launchBrowser" finished-at="2022-02-24T16:33:45 IST" duration-ms="2897" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:11:03 IST" name="launchBrowser" finished-at="2022-02-25T13:11:07 IST" duration-ms="4267" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,15 +90,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyFRpage()[pri:3, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:45 IST" name="verifyFRpage" finished-at="2022-02-24T16:33:52 IST" duration-ms="6439" status="PASS">
+        <test-method signature="verifyFRpage()[pri:3, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:11:07 IST" name="verifyFRpage" finished-at="2022-02-25T13:11:09 IST" duration-ms="2264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFRpage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:52 IST" name="teardown" finished-at="2022-02-24T16:33:52 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:11:09 IST" name="teardown" finished-at="2022-02-25T13:11:09 IST" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:52 IST" name="launchBrowser" finished-at="2022-02-24T16:33:55 IST" duration-ms="3340" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:11:09 IST" name="launchBrowser" finished-at="2022-02-25T13:11:12 IST" duration-ms="3192" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -97,19 +109,135 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyLogin()[pri:4, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:33:55 IST" name="verifyLogin" finished-at="2022-02-24T16:34:03 IST" duration-ms="7657" status="PASS">
+        <test-method signature="verifyLogin()[pri:4, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:11:12 IST" name="verifyLogin" finished-at="2022-02-25T13:11:19 IST" duration-ms="6926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:34:03 IST" name="teardown" finished-at="2022-02-24T16:34:03 IST" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:11:19 IST" name="teardown" finished-at="2022-02-25T13:11:20 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="reportingend()[pri:0, instance:com.evo.testcases.LoginPageTest@4da4253]" started-at="2022-02-24T16:34:03 IST" name="reportingend" finished-at="2022-02-24T16:34:03 IST" duration-ms="357" status="PASS">
+        <test-method is-config="true" signature="reportingend()[pri:0, instance:com.evo.testcases.LoginPageTest@140c9f39]" started-at="2022-02-25T13:12:44 IST" name="reportingend" finished-at="2022-02-25T13:12:45 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportingend -->
       </class> <!-- com.evo.testcases.LoginPageTest -->
+      <class name="com.evo.testcases.DashboardPageTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:11:20 IST" name="launchBrowser" finished-at="2022-02-25T13:11:30 IST" duration-ms="10254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="clickWidgetviewTest()[pri:1, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:11:30 IST" name="clickWidgetviewTest" finished-at="2022-02-25T13:11:32 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickWidgetviewTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:11:32 IST" name="teardown" finished-at="2022-02-25T13:11:32 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:11:32 IST" name="launchBrowser" finished-at="2022-02-25T13:11:42 IST" duration-ms="10259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verfyFirstWidgetTest()[pri:2, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:11:42 IST" name="verfyFirstWidgetTest" finished-at="2022-02-25T13:11:44 IST" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyFirstWidgetTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:11:44 IST" name="teardown" finished-at="2022-02-25T13:11:44 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:11:44 IST" name="launchBrowser" finished-at="2022-02-25T13:11:55 IST" duration-ms="10647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifySecondWidgetTest()[pri:3, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:11:55 IST" name="verifySecondWidgetTest" finished-at="2022-02-25T13:11:58 IST" duration-ms="2451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondWidgetTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:11:58 IST" name="teardown" finished-at="2022-02-25T13:11:58 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:11:58 IST" name="launchBrowser" finished-at="2022-02-25T13:12:09 IST" duration-ms="11077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyThirdWidgetTest()[pri:4, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:12:09 IST" name="verifyThirdWidgetTest" finished-at="2022-02-25T13:12:16 IST" duration-ms="7097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThirdWidgetTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:12:16 IST" name="teardown" finished-at="2022-02-25T13:12:16 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:12:16 IST" name="launchBrowser" finished-at="2022-02-25T13:12:26 IST" duration-ms="9895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFourthWidgetTest()[pri:5, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:12:26 IST" name="verifyFourthWidgetTest" finished-at="2022-02-25T13:12:30 IST" duration-ms="3519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFourthWidgetTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:12:30 IST" name="teardown" finished-at="2022-02-25T13:12:30 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:12:30 IST" name="launchBrowser" finished-at="2022-02-25T13:12:40 IST" duration-ms="9986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyFifthWidgetTest()[pri:6, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:12:40 IST" name="verifyFifthWidgetTest" finished-at="2022-02-25T13:12:44 IST" duration-ms="4227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFifthWidgetTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.evo.testcases.DashboardPageTest@4d910fd6]" started-at="2022-02-25T13:12:44 IST" name="teardown" finished-at="2022-02-25T13:12:44 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.evo.testcases.DashboardPageTest -->
     </test> <!-- Normal_Test -->
   </suite> <!-- Suite -->
 </testng-results>

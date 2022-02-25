@@ -7,17 +7,21 @@
   <test thread-count="5" name="Normal_Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.evo.testcases.LoginPageTest">
+      <class name="com.evo.testcases.DashboardPageTest">
         <methods>
+          <include name="verifyFifthWidgetTest"/>
           <include name="reportingend"/>
-          <include name="teardown"/>
+          <include name="verfyFirstWidgetTest"/>
+          <include name="verifySecondWidgetTest"/>
           <include name="loadconfig"/>
           <include name="reporting"/>
           <include name="logs"/>
-          <include name="verifyARpage"/>
+          <include name="verifyFourthWidgetTest"/>
           <include name="launchBrowser"/>
+          <include name="teardown"/>
+          <include name="verifyThirdWidgetTest"/>
         </methods>
-      </class> <!-- com.evo.testcases.LoginPageTest -->
+      </class> <!-- com.evo.testcases.DashboardPageTest -->
     </classes>
   </test> <!-- Normal_Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

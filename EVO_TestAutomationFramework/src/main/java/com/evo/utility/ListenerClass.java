@@ -34,6 +34,7 @@ public class ListenerClass extends ExtentManager implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		if (result.getStatus() == ITestResult.SUCCESS) {
 			test.log(Status.PASS, "Test Case " + result.getName() + " has Passed");
+			//test.log(Status.PASS, MarkupHelper.createLabel("Test Case " + result.getName() + " has Passed", ExtentColor.GREEN));
 		}
 	}
 
@@ -57,7 +58,8 @@ public class ListenerClass extends ExtentManager implements ITestListener {
 
 	public void onTestSkipped(ITestResult result) {
 		if (result.getStatus() == ITestResult.SKIP) {
-			test.log(Status.SKIP, "Skipped Test case is: " + result.getName());
+			test.log(Status.SKIP, 
+					MarkupHelper.createLabel("Skipped Test case is: " + result.getName(), ExtentColor.YELLOW));
 		}
 	}
 

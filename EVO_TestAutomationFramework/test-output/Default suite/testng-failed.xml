@@ -3,14 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.evo.testcases.LoginPageTest">
+      <class name="com.evo.testcases.DashboardPageTest">
         <methods>
-          <include name="teardown"/>
-          <include name="loginCheck"/>
+          <include name="reportingend"/>
+          <include name="loadconfig"/>
+          <include name="reporting"/>
+          <include name="logs"/>
           <include name="launchBrowser"/>
-          <include name="loadConfig"/>
+          <include name="teardown"/>
+          <include name="clickWidgetviewTest"/>
         </methods>
-      </class> <!-- com.evo.testcases.LoginPageTest -->
+      </class> <!-- com.evo.testcases.DashboardPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
