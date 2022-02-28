@@ -202,3 +202,54 @@
 2022-02-28 11:06:40 INFO  Log:32 - Verifying if fifth widget is shown in the page
 2022-02-28 11:06:43 INFO  Log:32 - Fifth widget is shown in the page
 2022-02-28 11:06:43 INFO  Log:25 - ==========verifyFifthWidgetTest TEST END==========
+2022-02-28 14:40:11 INFO  Log:20 -  
+2022-02-28 14:40:11 INFO  Log:21 - ==========VerifyENpage TEST START==========
+2022-02-28 14:40:13 INFO  Log:32 - Checking if EN page is loading
+2022-02-28 14:40:13 INFO  Log:32 - EN page successfully loaded
+2022-02-28 14:40:13 INFO  Log:25 - ==========verifyENpage TEST END==========
+2022-02-28 14:40:21 INFO  Log:20 -  
+2022-02-28 14:40:21 INFO  Log:21 - ==========verifyARpage TEST START==========
+2022-02-28 14:40:31 INFO  Log:32 - Checking if AR page is loading
+2022-02-28 14:40:31 INFO  Log:32 - AR page successfully loaded
+2022-02-28 14:40:31 INFO  Log:25 - ==========verifyARpage TEST END==========
+2022-02-28 14:40:35 INFO  Log:20 -  
+2022-02-28 14:40:35 INFO  Log:21 - ==========verifyFRpage TEST START==========
+2022-02-28 14:40:45 INFO  Log:32 - Checking if FR page is loading
+2022-02-28 14:40:45 INFO  Log:32 - FR page successfully loaded
+2022-02-28 14:40:45 INFO  Log:25 - ==========verifyFRpage TEST END==========
+2022-02-28 14:40:48 INFO  Log:20 -  
+2022-02-28 14:40:48 INFO  Log:21 - ==========verifyLogin TEST START==========
+2022-02-28 14:40:48 INFO  Log:32 - Entering username and password and clicking on login button also clicking on yes button if popup already-loggedin appears
+2022-02-28 14:40:59 INFO  Log:32 - verifying if login is success
+2022-02-28 14:40:59 INFO  Log:32 - Login Success
+2022-02-28 14:40:59 INFO  Log:25 - ==========verifyLogin TEST END==========
+2022-02-28 14:41:11 INFO  Log:20 -  
+2022-02-28 14:41:11 INFO  Log:21 - ==========clickWidgetviewTest TEST START==========
+2022-02-28 14:41:12 INFO  Log:32 - Checking if widget view is loaded
+2022-02-28 14:41:13 INFO  Log:32 - Widget view loaded
+2022-02-28 14:41:13 INFO  Log:25 - ==========clickWidgetviewTest TEST END==========
+2022-02-28 14:41:24 INFO  Log:20 -  
+2022-02-28 14:41:24 INFO  Log:21 - ==========verfyFirstWidgetTest TEST START==========
+2022-02-28 14:41:24 INFO  Log:32 - Verifying if first widget is shown in the page
+2022-02-28 14:41:34 INFO  Log:32 - First widget is shown in the page
+2022-02-28 14:41:34 INFO  Log:25 - ==========verfyFirstWidgetTest TEST END==========
+2022-02-28 14:41:45 INFO  Log:20 -  
+2022-02-28 14:41:45 INFO  Log:21 - ==========verifySecondWidgetTest TEST START==========
+2022-02-28 14:41:45 INFO  Log:32 - Verifying if second widget is shown in the page
+2022-02-28 14:41:48 INFO  Log:32 - Second widget is shown in the page
+2022-02-28 14:41:48 INFO  Log:25 - ==========verifySecondWidgetTest TEST END==========
+2022-02-28 14:42:00 INFO  Log:20 -  
+2022-02-28 14:42:00 INFO  Log:21 - ==========verifyThirdWidgetTest TEST START==========
+2022-02-28 14:42:00 INFO  Log:32 - Verifying if third widget is shown in the page
+2022-02-28 14:42:03 INFO  Log:32 - Third widget is shown in the page
+2022-02-28 14:42:03 INFO  Log:25 - ==========verifyThirdWidgetTest TEST END==========
+2022-02-28 14:42:15 INFO  Log:20 -  
+2022-02-28 14:42:15 INFO  Log:21 - ==========verifyFourthWidgetTest TEST START==========
+2022-02-28 14:42:15 INFO  Log:32 - Verifying if fourth widget is shown in the page
+2022-02-28 14:42:18 INFO  Log:32 - Fourth widget is shown in the page
+2022-02-28 14:42:18 INFO  Log:25 - ==========verifyFourthWidgetTest TEST END==========
+2022-02-28 14:42:29 INFO  Log:20 -  
+2022-02-28 14:42:29 INFO  Log:21 - ==========verifyFifthWidgetTest TEST START==========
+2022-02-28 14:42:29 INFO  Log:32 - Verifying if fifth widget is shown in the page
+2022-02-28 14:42:31 INFO  Log:32 - Fifth widget is shown in the page
+2022-02-28 14:42:31 INFO  Log:25 - ==========verifyFifthWidgetTest TEST END==========
