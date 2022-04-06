@@ -15,8 +15,10 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+          name: cd to ./EVO_TestAutomationFramework, clean and test
+          command: cd EVO_TestAutomationFramework
+            ls -la
+            mvn clean test -Dsurefire.suiteXmlFiles=testng_Regression.xml -D headless=yes
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
