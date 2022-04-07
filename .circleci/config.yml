@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: mvn clean test -Dsurefire.suiteXmlFiles=testng_Regression.xml -D headless=yes
+          command: mvn clean test
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
